@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header, footer {
+    background-color: #e7e8e9; 
+    color: rgb(106, 102, 102);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+header nav ul, footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li, footer nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a, footer nav ul li a {
+    color: rgb(126, 123, 123);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover, footer nav ul li a:hover {
+    text-decoration: underline;
+    color: #ed867a; 
+}
+
+header .logo img {
+    width: auto;
+    margin-bottom: 10px;
+}
+
+
+#sobre {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+#sobre h2 {
+    color: #ed867a;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#sobre p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #5f5a59;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#contato {
+    background-color: #e8f5e9; 
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 30px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contato h2 {
+    color: #ed867a;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#contato p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#contato ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+
+#contato ul li {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+}
+
+
+footer p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: rgb(106, 102, 102);
+}
+
+footer nav ul {
+    margin-top: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+a {
+    color: #ed867a;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #333;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Loja de Roupas</title> 
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=visibility" />
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Cadastro - Loja de Roupas</h1>
+        <h2>Seja Bem-vindo</h2>
+        <nav>
+            <a href="index.html">Formulário</a>
+            <a href="server.php">Dados Cadastrados</a>
+            <a href="desenvolvedores.html">Desenvolvedores</a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="server.php" method="post">
+            <h4 class="formulario-titulo">Dados do usuário</h4>
+
+            <div class="grupo">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="controle" name="nome" required>
+            </div>
+
+            <div class="grupo">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="controle" name="email" required>
+            </div>
+
+            <div class="grupo">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="controle" name="telefone" required>
+            </div>
+
+            <div class="grupo">
+                <label for="data">Data de nascimento</label>
+                <input type="date" id="data" class="controle" name="data" required>
+            </div>
+
+            <div class="grupo">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" class="controle" name="senha" required>
+                <span class="material-symbols-outlined" id="mostrar_senha">visibility</span>
+            </div>
+
+            <h4 class="formulario-titulo">Preferências de Estilo</h4>
+
+            <div class="grupo">
+                <label for="estilo">Estilo preferido</label>
+                <input type="text" id="estilo" class="controle" name="estilo" required>
+            </div>
+            <div class="grupo">
+                <label>Preferências de Compra</label>
+               
+                <div>
+                    <input type="checkbox" id="promo" name="preferencias" value="promo">
+                    <label for="promo">Receber Promoções</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="novidades" name="preferencias" value="novidades">
+                    <label for="novidades">Receber Novidades</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="recomendacoes" name="preferencias" value="recomendacoes">
+                    <label for="recomendacoes">Receber Recomendações</label>
+                </div>
+            </div>
+            
+
+            <div class="grupo">
+                <label for="cor">Cor preferida</label>
+                <input type="color" id="cor" class="controle" name="cor" required>
+            </div>
+
+            <div class="grupo">
+                <label for="tamanho">Tamanho preferido</label>
+                <input type="text" id="tamanho" class="controle" name="tamanho" required>
+            </div>
+
+            <div class="grupo">
+                <label for="peso">Peso (kg)</label>
+                <input type="number" id="peso" class="controle" name="peso" required>
+            </div>
+
+            <div class="grupo">
+                <label for="genero">Seu gênero</label>
+                <div class="grupo-radio">
+                    <input type="radio" id="genero_m" class="controle" name="genero" value="Masculino" required> Masculino
+                    <input type="radio" id="genero_f" class="controle" name="genero" value="Feminino" required> Feminino
+                </div>
+            </div>
+
+            <div class="botoes">
+                <input type="submit" value="Enviar" class="btn">
+                <input type="reset" value="Preencher novamente" class="btn">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>  Campus Santa Cruz-RN |
+             Trabalho de Autoria Web |
+             Prof. Marcelo Figueiredo Barbosa Júnior |
+              Mykaely Raissa Costa da Silva |
+               Kevily Mariana Santos de Araújo |
+               Diego Da Silva Campelo |
+            ref:https://www.canva.com/design/DAGYEz46jxE/gaDH3SB6svg7IWcc5gbapA/edit , https://www.canva.com/design/DAGYE8cErN4/SZjatAxUnO6zyBqgV1t9TA/edit</p>
+    </footer>
+</body>
+
+</html>
